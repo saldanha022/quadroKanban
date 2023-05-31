@@ -1,0 +1,34 @@
+body{
+    background-color: bisque;
+}
+
+h2{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.kanban {
+    display: flex;
+    justify-content: center;
+    min-height: 400px;
+    gap: 10px;
+    padding: 10px;
+}
+
+.column {
+    padding: 10px;
+    min-width: 200px;
+    border-radius: 5px;
+    background-color: brown;
+}
+
+.item {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.dragging {
+    opacity: 0.5;
+}
